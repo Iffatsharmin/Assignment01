@@ -43,11 +43,17 @@ nav{
     background-size: cover;
 }
 
+/* Main Style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /* Action Section Style */
 .action-section{
     display: flex;
     justify-content: space-between;
-    margin: 116px 150px 116px 150px;
+    margin: 116px 0 116px 0;
 }
 
 .content{
@@ -71,6 +77,49 @@ nav{
     font-weight: 400px;
     color: #252432;
 }
+/* User action style */
+.Productive-Users{
+    background-color: rgb(217, 224, 237);
+    border-radius: 24px;
+    text-align: center;
+    padding: 50px 140px 50px 140px;
+}
+.user-title{
+    font-size: 38px;
+    color: #252432;
+    text-align: center;
+}
+.user-item h1{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 80px;
+    color: #4E47FF;
+    margin-bottom: 5px;
+}
+.user-item p{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #000000;
+    opacity: 50%;
+    margin-top: 0px;
+}
+.user-ratio{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.user-item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
 
 /* Shared Style */
 .btn-primary{
