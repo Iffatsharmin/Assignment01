@@ -39,6 +39,37 @@ nav{
 /* Header Style */
 .head{
     background-image: url(../Assets/Hero-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+/* Action Section Style */
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 116px 150px 116px 150px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.wc-mini{
+    height: 328px;
+    width: 403px;
+    border-radius: 48px;
+}
+.titel{
+    font-size: 42px;
+    color: #252432;
+}
+.description{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: 400px;
+    color: #252432;
 }
 
 /* Shared Style */
@@ -47,10 +78,18 @@ nav{
     color:#FFFFFF;
     padding: 12px 36px;
     font-size: 16px;
-    border-radius: 5px;
+    border-radius: 6px;
     border-style: none;
     height: 48px;
     width: 178px;
+    transition: background-color 0.3s ease;
+    transition: transform 0.2s ease;
+    
+}
+
+.btn-primary:hover{
+    background-color: tomato;
+    transform: scale(1.08);
 }
 
 
