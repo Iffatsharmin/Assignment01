@@ -173,6 +173,45 @@ button {
 
 }
 
+/* Footer style */
+
+.section{
+    background-color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.website-name{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 100px;
+    color: #4E47FF;
+    margin-bottom: 0;
+}
+.website-description{
+    color:#8987A1;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
+ul {
+    display: flex;
+}
+ul li {
+    list-style: none;
+    margin-right: 48px;
+}
+li a{
+    text-decoration: none;
+    color: #8987A1;
+}
+
 /* Shared Style */
 .btn-primary{
     background-color: #4E47FF;
